@@ -1,0 +1,159 @@
+head {
+    display: none;
+}
+body {
+    margin: 0;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+header{
+    padding: 35px 0;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo {
+    width: 12%;
+    float: left;
+    margin: 9px 0 0;
+}
+.logo a {
+    display: block;
+}
+.logo a img {
+    width: 100%;
+}
+.menu {
+    width: 70%;
+    float: right;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+    display: inline-block;
+    margin: 0 52px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s;
+}
+section {
+    display: block;
+}
+.b_img img {
+    width: 100%;
+}
+.about {
+    padding: 100px 0 41px;
+}
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.light {
+    margin: 0;
+    font-family: ubuntu-Light;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.titel {
+    margin: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text {
+    margin: 0;
+    line-height: 24px;
+}
+.mt_40 {
+    margin-top: 35px;
+}
+.blog {
+    padding: 0 0 100px;
+}
+.s_item {
+    width: 47%;
+    float: left;
+    margin-top: 60px;
+}
+.s_img {
+    margin-bottom: 20px;
+}
+.s_img img {
+    width: 100%;
+}
+.s_item:nth-child(even) {
+    margin-left: 6%;
+}
+.news {
+    min-height: 400px;
+    background-color: #f0f0f0;
+}
+.blog2 {
+    padding-top: 40px;
+}
+.load {
+    margin: 100px 0;
+    text-align: center;
+}
+.load button {
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #626262;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .33s;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 30px 0;
+}
+.pages {
+    width: 45%;
+    float: left;
+}
+.pages ul li {
+    list-style: none;
+    float: left;
+}
+.pages ul li a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+.social {
+    width: 50%;
+    float: right;
+}
+
+.social ul {
+    float: right;
+}
+.social ul li {
+    list-style: none;
+    float: left;
+}
+.social ul li span {
+    margin: 0 15px;
+    color: black;
+}
+
+
+
